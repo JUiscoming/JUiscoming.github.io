@@ -94,9 +94,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "음성신호처리 개발자 첫걸음"
+  name             : "Youngju Cheon"
   avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "겸손하자, 최선을 다하자."
+  bio              : "Be humble, do my best."
   location         : "South Korea"
   email            : "juiscoming(at)gmail.com"
   links:
