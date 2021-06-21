@@ -6,16 +6,19 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: $nanum-gothic;
-}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
 
-p[data-cute="true"] {
-  font-family: $cute;
-}
+$sans-serif: 'Noto Sans KR';
+
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6 {
+//   font-family: $nanum-gothic;
+// }
+
+// p[data-cute="true"] {
+//   font-family: $cute;
+// }
