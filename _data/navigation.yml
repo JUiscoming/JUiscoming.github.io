@@ -7,5 +7,5 @@ main:
      url: /year-archive/
    - title: "Monthly"
      url: /month-archive/
-   - title: tag
+   - title: "tag"
      url: /tags/
