@@ -14,8 +14,8 @@
         <span class="nav__sub-title">Speech</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "speech_synthesis" %}
-                        <li><a href="/categories/speech_synthesis" class="">Speech Synthesis({{category[1].size}})</a></li>
+                    {% if category[0] == "speech-synthesis" %}
+                        <li><a href="/categories/speech-synthesis" class="">Speech Synthesis({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -24,15 +24,15 @@
         <span class="nav__sub-title">Mathematics</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "linear_algebra" %}
-                        <li><a href="/categories/linear_algebra" class="">Linear Algebra({{category[1].size}})</a></li>
+                    {% if category[0] == "linear-algebra" %}
+                        <li><a href="/categories/linear-algebra" class="">Linear Algebra({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "random_process" %}
-                        <li><a href="/categories/random_process" class="">Random Process({{category[1].size}})</a></li>
+                    {% if category[0] == "random-process" %}
+                        <li><a href="/categories/random-process" class="">Random Process({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>            
@@ -72,8 +72,8 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "coding_test" %}
-                        <li><a href="/categories/coding_test" class="">Coding Test({{category[1].size}})</a></li>
+                    {% if category[0] == "tips" %}
+                        <li><a href="/categories/tips" class="">Tips({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
