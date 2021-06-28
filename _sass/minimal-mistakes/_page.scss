@@ -325,13 +325,35 @@ body {
   margin-bottom: 8px;
   padding: 5px 10px;
   text-decoration: none;
-  border: 1px solid mix(#000, $border-color, 25%);
+  border: 2px solid mix(#000, $border-color, 25%);
   border-radius: $border-radius;
 
   &:hover {
     text-decoration: none;
     color: $link-color-hover;
   }
+}
+
+.page__taxonomy-item-category {
+  display: inside;
+  margin-right: 5px;
+  margin-bottom: 8px;
+  padding: 3px 8px;
+  text-decoration: none;
+  border: 2px solid #AAF0D1;
+  border-radius: 4px;
+  font-family: "Noto Sans KR",Georgia,Times,serif;
+}
+
+.page__taxonomy-item-tag {
+  display: inside;
+  margin-right: 5px;
+  margin-bottom: 8px;
+  padding: 3px 8px;
+  text-decoration: none;
+  border: 1px solid #D6FFFE;
+  border-radius: 4px;
+  font-family: "Noto Sans KR",Georgia,Times,serif;
 }
 
 .taxonomy__section {
