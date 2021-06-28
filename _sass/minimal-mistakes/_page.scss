@@ -344,7 +344,7 @@ body {
   border-radius: 4px;
   background-color: #6a6a6a;
   font-family: "Noto Sans KR",Georgia,Times,serif;
-  color: #FFFFFF;
+  color: #FFFFFF !default;
 }
 
 .page__taxonomy-item-tag {
@@ -357,7 +357,7 @@ body {
   border-radius: 4px;
   background-color: #808080;
   font-family: "Noto Sans KR",Georgia,Times,serif;
-  color: #FFFFFF;
+  color: #FFFFFF !default;
 }
 
 .taxonomy__section {
