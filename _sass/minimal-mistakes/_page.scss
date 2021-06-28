@@ -334,6 +334,32 @@ body {
   }
 }
 
+.page__taxonomy-item-category {
+  display: inside;
+  margin-right: 5px;
+  margin-bottom: 8px;
+  padding: 3px 8px;
+  text-decoration: none;
+  border: 1px solid #373C3F;
+  border-radius: 4px;
+  background-color: #C490E4;
+  font-family: "Coming Soon",Georgia,Times,serif;
+  color: #F9F9F9;
+}
+
+.page__taxonomy-item-tag {
+  display: inside;
+  margin-right: 5px;
+  margin-bottom: 8px;
+  padding: 3px 8px;
+  text-decoration: none;
+  border: 1px solid #373C3F;
+  border-radius: 4px;
+  background-color: #F6C6EA;
+  font-family: "Coming Soon",Georgia,Times,serif;
+  color: #F9F9F9;
+}
+
 .taxonomy__section {
   margin-bottom: 2em;
   padding-bottom: 1em;
