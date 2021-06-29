@@ -72,6 +72,13 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
+                    {% if category[0] == "GitHub Blog" %}
+                        <li><a href="/categories/tips" class="">GitHub Blog({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>            
+            <ul>
+                {% for category in site.categories %}
                     {% if category[0] == "Tips" %}
                         <li><a href="/categories/tips" class="">Tips({{category[1].size}})</a></li>
                     {% endif %}
