@@ -226,6 +226,8 @@
     }
 
     &.site-title {
+      font-size: $type-size-3;
+      font-family: $title-font;
       margin-left: 0;
     }
   }
@@ -523,9 +525,9 @@
   margin: 0.5rem 0;
   padding: 0.25rem 0;
   font-family: $sans-serif-narrow;
-  font-size: $type-size-5;
+  font-size: $type-size-4;
   font-weight: bold;
-  text-transform: uppercase;
+  text-transform: capitalize;
   border-bottom: 1px solid $border-color;
 }
 
@@ -547,7 +549,7 @@
     // color: #fff;
     color: $text-color;
     font-size: $type-size-6;
-    background: mix(#fff, $link-color, 25%);
+    background: mix(#000, $link-color, 15%);
     // background: $primary-color;
     border-top-left-radius: $border-radius;
     border-top-right-radius: $border-radius;

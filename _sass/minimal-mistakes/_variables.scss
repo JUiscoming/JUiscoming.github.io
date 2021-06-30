@@ -14,10 +14,10 @@ $indent-var: 1.3em !default;
 
 /* system typefaces */
 $serif: Georgia, Times, serif !default;
-$sans-serif: 'Nanum Gothic', "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
+$sans-serif: "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
   "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
 $monospace: Monaco, Consolas, "Lucida Console", monospace !default;
-$head_font: 'Nanum Gothic', "Noto Serif KR", "Noto Sans KR", Arial, !default;
+$head_font: "Noto Sans KR", Arial, !default;
 
 /* sans serif typefaces */
 $sans-serif-narrow: $sans-serif !default;
@@ -34,8 +34,7 @@ $global-font-family: $sans-serif !default; //main.scss, base.scss, footer.scss
 $header-font-family: $sans-serif !default;
 $caption-font-family: $sans-serif !default;
 
-$main_font: "Noto Sans KR" !default;
-$menu_font: "Noto Serif KR" !default;
+$title-font: 'Poor Story', $sans-serif !default;
 
 
 /* type scale */
