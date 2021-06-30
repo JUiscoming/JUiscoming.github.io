@@ -340,7 +340,8 @@ body {
   margin-bottom: 8px;
   padding: 3px 8px;
   text-decoration: none;
-  border: 1px solid #cc407d;
+  border: 1px solid $primary-color;
+  font-size: $type-size-6
   border-radius: 4px;
 }
 
@@ -350,7 +351,7 @@ body {
   margin-bottom: 8px;
   padding: 3px 8px;
   text-decoration: none;
-  border: 1px solid #44b19b;
+  border: 1px solid mix(#000, $primary-color, 15%);
   border-radius: 4px;
 }
 
