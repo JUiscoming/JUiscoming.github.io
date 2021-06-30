@@ -226,6 +226,7 @@
     }
 
     &.site-title {
+      /* 블로그 title 설정 */
       font-size: $type-size-4;
       font-family: $title-font;
       margin-left: 0;
@@ -525,7 +526,7 @@
   margin: 0.5rem 0;
   padding: 0.25rem 0;
   font-family: $sans-serif-narrow;
-  font-size: $type-size-4;
+  font-size: $type-size-5;
   font-weight: bold;
   text-transform: capitalize;
   border-bottom: 1px solid $border-color;
